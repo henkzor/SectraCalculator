@@ -4,10 +4,10 @@ using System.Text;
 
 namespace SectraCalculator
 {
-    class Register
+    class Register  
     {
         public string Name { get; set; }
-        public int Value { get; set; }
+        public int Value { get; set; } = 0;
 
     }
 }
